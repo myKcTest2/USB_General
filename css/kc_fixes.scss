@@ -58,7 +58,38 @@ body{
 	font-family: "Exo", sans-serif;
 }
 
+.center {
+  display: block;
+  margin: auto;
+  
+  width: 40%;
+	
+		
+}
 
+
+.box{
+	margin: auto;
+	width: 500;
+	height: 250px;
+	position: relative;
+	//top:50%;
+	//left:50%;
+	//transform: translate(-50%, -50%);
+	background-color: hsla(0,0%,100%,0.10);
+	padding: 60px 60px 0px 90px;
+	border-radius: 40px 10px;
+	border-color: #2ecc71;
+	border: 2px solid;
+	
+	h1{   
+		display: block;
+		text-align: center;
+		font-weight: 500;
+		width: 100%;
+	}
+	
+}
 
 .first_slide_card {
 	margin: 0;
